@@ -1,0 +1,148 @@
+body {
+    --background-primary: rgb(0,0,0);
+    --background-secondary: rgb(5,5,5);
+    --background-secondary-alt: rgb(5,5,5);
+    --background-tertiary: rgb(10,10,10);
+    --background-accent: rgb(10,10,10);
+    --background-text-area: rgb(15,15,15);
+    --background-floating: rgb(15,15,15);
+    --background-modifier-selected: rgba(20,20,20,0.6);
+    --background-modifier-active: rgba(20,20,20,0.4);
+    --background-modifier-hover: rgba(20,20,20,0.3);
+    --scrollbar-auto-track: rgb(15,15,15);
+    --scrollbar-auto-thumb: rgb(20,20,20);
+    --container-hover: rgb(25,25,25);
+    --container-active: rgb(25,25,25);
+    --container-avatar: rgb(30,30,30);
+    --layout-selected: rgba(79, 84, 92, 0.32);
+    --searchBar-hover: rgb(25,25,25);
+    --searchBar-open: rgb(30,30,30);
+    --scroller: rgb(15,15,15);
+    --spoilerText: rgb(20,20,20);
+    --spoilerText-hover: rgb(25,25,25);
+    --uploadModal: rgb(0,0,0);
+    --footer: rgb(0,0,0);
+    --selected-hover: rgb(30,30,30);
+    --selected-active: rgb(30,30,30);
+    --expandedFolder: rgb(10,10,10);
+    --closedFolder: rgb(10,10,10);
+    --closedFolderIconWrapper: rgb(10,10,10);
+    --peopleList: rgb(0,0,0);
+    --actionButton-hover: rgb(70, 70, 70);
+    --feature-hover: rgb(58, 58, 58);
+    --childWrapper: rgb(20,20,20);
+    --searchBarCom-hover: rgb(51, 51, 51);
+    --expandedFolderIcon: rgb(10,10,10);
+    --expandedFolderIconWrapper-hover: rgb(15,15,15);
+    --body-footer: rgb(0,0,0);
+    --headerTop: rgb(0,0,0);
+    --The-272727: #272727;
+    --The-181818: #181818;
+    --text-area-focus: #141414;
+    --lookFilled-colorBrand: rgb(29, 29, 29);
+    --lookFilled-colorBrand-hover: rgb(75, 75, 75);
+    --colorPrimary: #525252;
+    --colorPrimary-hover: rgb(59, 59, 59);
+    --lookOutlined: #414141;
+    --The-292929: #292929;
+    --The-555555: #555555;
+    --The-161616: #161616;
+    --perk-hover: rgb(65, 65, 65);
+    --perk-active: rgb(46, 46, 46);
+    --lookFilled-disabled: rgb(24, 24, 24);
+    --connectedAccount-hover: rgb(56, 56, 56);
+    --circleIconButton-selected: rgb(66, 66, 66);
+    --circleIconButton-active: rgb(122, 122, 122);
+    --The-82: rgb(82, 82, 82);
+    --The-58: rgb(58, 58, 58);
+    --The-126: rgb(126, 126, 126);
+    --subtitle: rgb(163, 163, 163);
+    --The-59: rgb(59, 59, 59);
+    --The-83: rgb(83, 83, 83);
+    --The-163: rgb(163, 163, 163);
+    --The-102: rgb(102, 102, 102);
+    --The-94: rgb(94, 94, 94);
+    --childWrapper-anI2G9: rgb(124, 124, 124);
+    --The-92: rgb(92, 92, 92);
+    --The-85: rgb(85, 85, 85);
+    --The-49: rgb(49, 49, 49);
+    --The-48: rgb(48, 48, 48);
+    --The-34: rgb(34, 34, 34);
+    --ToolTip: rgb(51, 51, 51);
+}
+
+.modal-1k91nT {
+    background-color: var(--background-primary);
+}
+.perksModalContentWrapper-2HU6uL {
+    background-color: var(--background-primary);
+}
+.inputDefault-_djjkz {
+    background-color: var(--background-tertiary);
+}
+.footer-3UKYOU {
+    background-color: var(--background-secondary);
+}
+.bodyInnerWrapper-26fQXj {
+    background-color: var(--backgruond-secondary);
+}
+.body-3HBlXn {
+    background-color: var(--background-secondary);
+}
+.headerTop-3vNv-a {
+    background-color: var(--background-secondary);
+}
+.newMessagesBar-265mhP {
+    background-color: var(--background-secondary);
+}
+.scrollableContainer-2NUZem {
+    background: var(--background-secondary);
+}
+.container-3baos1 {
+    background: var(--background-secondary);
+}
+.botTag-3W9SuW {
+    background: var(--background-tertiary);
+}
+.root-1gCeng.small-3iVZYw {
+    background-color: var(--background-primary);
+}
+.theme-dark .footer-1FPmkC {
+    background-color: var(--background-primary);
+}
+.colorDefault-2K3EoJ.focused-3afm-j {
+    background-color: var(--background-tertiary);
+}
+.root-1gCeng.medium-2RE1hE {
+    background-color: var(--background-primary);
+}
+.content-1LAB8Z {
+    background-color: var(--background-primary);
+}
+.theme-dark.footer-2gL1pp {
+    background-color: var(--background-primary);
+}
+.flex-1xMQg5.flex-1O1GKY.footer-2gL1pp {
+    background-color: var(--background-primary);
+}
+.flex-1xMQg5.flex-1O1GKY.header-1TKi98 {
+    background-color: var(--background-primary);
+}
+.theme-dark .uploadModal-2ifh8j {
+    background-color: var(--background-primary);
+}
+.theme-dark .footer-3mqk7D {
+    background-color: var(--background-primary);
+}
+div.channelTextArea-rNsIhG .scroller-lynW5A {
+    background-color: var(--background-primary);
+}
+.theme-dark .selected-1Tbx07 {
+    background-color: var(--background-secondary);
+}
+.peopleList-3c4jOR.scrollerBase-289Jih {
+    background-color: var(--background-primary);
+}
+.peopleColumn-29fq28 {
+    background-color: var(--background-primary);
+}
