@@ -1,7 +1,7 @@
 {
   "name": "JetBlack",
   "description": "Get Discord actually dark.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "theme": "index.css",
   "author": "0/0#0001",
   "license": "MIT"
