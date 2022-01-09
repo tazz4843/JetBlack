@@ -1,148 +1,92 @@
 body {
     --background-primary: rgb(0,0,0);
-    --background-secondary: rgb(5,5,5);
-    --background-secondary-alt: rgb(5,5,5);
-    --background-tertiary: rgb(10,10,10);
-    --background-accent: rgb(10,10,10);
-    --background-text-area: rgb(15,15,15);
-    --background-floating: rgb(15,15,15);
-    --background-modifier-selected: rgba(20,20,20,0.6);
-    --background-modifier-active: rgba(20,20,20,0.4);
-    --background-modifier-hover: rgba(20,20,20,0.3);
-    --scrollbar-auto-track: rgb(15,15,15);
-    --scrollbar-auto-thumb: rgb(20,20,20);
-    --container-hover: rgb(25,25,25);
-    --container-active: rgb(25,25,25);
-    --container-avatar: rgb(30,30,30);
+    --background-secondary: rgb(3,3,3);
+    --background-secondary-alt: rgb(3,3,3);
+    --background-tertiary: rgb(6,6,6);
+    --background-accent: rgb(6,6,6);
+    --background-text-area: rgb(9,9,9);
+    --background-floating: rgb(9,9,9);
+    --background-modifier-selected: rgba(12,12,12,0.6);
+    --background-modifier-active: rgba(12,12,12,0.4);
+    --background-modifier-hover: rgba(12,12,12,0.3);
+    --scrollbar-auto-track: rgb(9,9,9);
+    --scrollbar-auto-thumb: rgb(12,12,12);
+    --container-hover: rgb(15,15,15);
+    --container-active: rgb(15,15,15);
+    --container-avatar: rgb(18,18,18);
     --layout-selected: rgba(79, 84, 92, 0.32);
-    --searchBar-hover: rgb(25,25,25);
-    --searchBar-open: rgb(30,30,30);
-    --scroller: rgb(15,15,15);
-    --spoilerText: rgb(20,20,20);
-    --spoilerText-hover: rgb(25,25,25);
+    --searchBar-hover: rgb(15,15,15);
+    --searchBar-open: rgb(18,18,18);
+    --scroller: rgb(9,9,9);
+    --spoilerText: rgb(12,12,12);
+    --spoilerText-hover: rgb(15,15,15);
     --uploadModal: rgb(0,0,0);
     --footer: rgb(0,0,0);
-    --selected-hover: rgb(30,30,30);
-    --selected-active: rgb(30,30,30);
-    --expandedFolder: rgb(10,10,10);
-    --closedFolder: rgb(10,10,10);
-    --closedFolderIconWrapper: rgb(10,10,10);
+    --selected-hover: rgb(18,18,18);
+    --selected-active: rgb(18,18,18);
+    --expandedFolder: rgb(6,6,6);
+    --closedFolder: rgb(6,6,6);
+    --closedFolderIconWrapper: rgb(6,6,6);
     --peopleList: rgb(0,0,0);
-    --actionButton-hover: rgb(70, 70, 70);
-    --feature-hover: rgb(58, 58, 58);
-    --childWrapper: rgb(20,20,20);
-    --searchBarCom-hover: rgb(51, 51, 51);
-    --expandedFolderIcon: rgb(10,10,10);
-    --expandedFolderIconWrapper-hover: rgb(15,15,15);
+    --expandedFolderIcon: rgb(6,6,6);
+    --expandedFolderIconWrapper-hover: rgb(9,9,9);
     --body-footer: rgb(0,0,0);
     --headerTop: rgb(0,0,0);
-    --The-272727: #272727;
-    --The-181818: #181818;
-    --text-area-focus: #141414;
-    --lookFilled-colorBrand: rgb(29, 29, 29);
-    --lookFilled-colorBrand-hover: rgb(75, 75, 75);
-    --colorPrimary: #525252;
-    --colorPrimary-hover: rgb(59, 59, 59);
-    --lookOutlined: #414141;
-    --The-292929: #292929;
-    --The-555555: #555555;
-    --The-161616: #161616;
-    --perk-hover: rgb(65, 65, 65);
-    --perk-active: rgb(46, 46, 46);
-    --lookFilled-disabled: rgb(24, 24, 24);
-    --connectedAccount-hover: rgb(56, 56, 56);
-    --circleIconButton-selected: rgb(66, 66, 66);
-    --circleIconButton-active: rgb(122, 122, 122);
-    --The-82: rgb(82, 82, 82);
-    --The-58: rgb(58, 58, 58);
-    --The-126: rgb(126, 126, 126);
-    --subtitle: rgb(163, 163, 163);
-    --The-59: rgb(59, 59, 59);
-    --The-83: rgb(83, 83, 83);
-    --The-163: rgb(163, 163, 163);
-    --The-102: rgb(102, 102, 102);
-    --The-94: rgb(94, 94, 94);
-    --childWrapper-anI2G9: rgb(124, 124, 124);
-    --The-92: rgb(92, 92, 92);
-    --The-85: rgb(85, 85, 85);
-    --The-49: rgb(49, 49, 49);
-    --The-48: rgb(48, 48, 48);
-    --The-34: rgb(34, 34, 34);
-    --ToolTip: rgb(51, 51, 51);
 }
 
-.modal-1k91nT {
-    background-color: var(--background-primary);
-}
-.perksModalContentWrapper-2HU6uL {
-    background-color: var(--background-primary);
-}
-.inputDefault-_djjkz {
-    background-color: var(--background-tertiary);
-}
-.footer-3UKYOU {
+.newMessagesBar-1hF-9G.barBase-3xxDXu {
     background-color: var(--background-secondary);
 }
-.bodyInnerWrapper-26fQXj {
-    background-color: var(--backgruond-secondary);
-}
-.body-3HBlXn {
-    background-color: var(--background-secondary);
-}
-.headerTop-3vNv-a {
-    background-color: var(--background-secondary);
-}
-.newMessagesBar-265mhP {
-    background-color: var(--background-secondary);
-}
-.scrollableContainer-2NUZem {
-    background: var(--background-secondary);
-}
-.container-3baos1 {
-    background: var(--background-secondary);
-}
-.botTag-3W9SuW {
-    background: var(--background-tertiary);
-}
-.root-1gCeng.small-3iVZYw {
+.scrollableContainer-15eg7h, .infoScroller-1QMpon, .topSection-13QKHs, .headerTop-3GPUSF, .body-2wLx-E, .footer-3naVBw,
+.bodyInnerWrapper-2bQs1k, .header-1zd7se, .content-2hZxGK, .footer-31IekZ.flex-2S1XBF.flex-3BkGQD, .card-16VQ8C,
+.paymentRow-1HKOLu, .pageActions-1crTQL, .codeRedemptionRedirect-3SBiCp.card-16VQ8C, .theme-dark .notDetected-2HEmAp,
+.theme-light .notDetected-2HEmAp, .lookFilled-yCfaCM.colorBrand-I6CyqQ, .ttsPreviewWrapper-100hh5,
+.button-f2h6uQ.lookFilled-yCfaCM, .members-3WRCEx, .members-3WRCEx>div, .header-3OsQeK, .scrollerBase-_bVAAt,
+.panels-3wFtMD, .header-3cSJjT, .header-1zd7se.header-1sd0RU, .footer-31IekZ.footer-34a4-c, .inner-2pOSmK,
+.friendsEmpty-gs15T1, .searchBar-3TnChZ, .header-30YxSJ, .flex-3BkGQD, .footer-31IekZ.flex-2S1XBF, .formNotice-2nS8ey,
+.card-2U-33X, .card-16VQ8C, .popoutInfo-16MuYF {
     background-color: var(--background-primary);
 }
-.theme-dark .footer-1FPmkC {
-    background-color: var(--background-primary);
+
+/*
+Adding a subtle border around things to make them "pop" more
+*/
+.radioBar-3w9XY-, .container-2oNtJn, .container-2rzKKA, .scrollableContainer-15eg7h, .inner-2pOSmK,
+.container-ZMc96U.themed-Hp1KC_, .searchBar-3TnChZ, .addFriendInputWrapper-kkoSV9, .inputWrapper-1YNMmM,
+.card-16VQ8C, .theme-dark .notDetected-2HEmAp, .theme-light .notDetected-2HEmAp, .button-f2h6uQ.lookFilled-yCfaCM {
+    border: var(--background-tertiary) 1px solid;
 }
-.colorDefault-2K3EoJ.focused-3afm-j {
-    background-color: var(--background-tertiary);
+.header-3OsQeK, .title-31SJ6t, .header-3cSJjT, .header-1zd7se.header-1sd0RU {
+    border-bottom: var(--background-tertiary) 1px solid;
 }
-.root-1gCeng.medium-2RE1hE {
-    background-color: var(--background-primary);
+.wrapper-1_HaEi, .sidebar-1tnWFu {
+    border-right: var(--background-tertiary) 1px solid;
 }
-.content-1LAB8Z {
-    background-color: var(--background-primary);
+.container-2o3qEW, .panels-3wFtMD {
+    border-top: var(--background-tertiary) 1px solid
 }
-.theme-dark.footer-2gL1pp {
-    background-color: var(--background-primary);
+.header-30YxSJ {
+    border-bottom: none;
 }
-.flex-1xMQg5.flex-1O1GKY.footer-2gL1pp {
-    background-color: var(--background-primary);
+
+/*
+Fixing broken padding
+*/
+.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz {
+    padding-bottom: 8px;
 }
-.flex-1xMQg5.flex-1O1GKY.header-1TKi98 {
-    background-color: var(--background-primary);
+.breadcrumbs--Y6d8N {
+    margin-bottom: 0px;
 }
-.theme-dark .uploadModal-2ifh8j {
-    background-color: var(--background-primary);
+
+/*
+Hiding Discord's upsell that way you don't click on it
+*/
+.banner-3Uu4yV, .upsellContainer-22N_CL, .divider-_0um2u, .channel-1Shao0.container-1oeRFJ.clickable-28SzVr[href="/store"] {
+    display: none;
 }
-.theme-dark .footer-3mqk7D {
-    background-color: var(--background-primary);
-}
-div.channelTextArea-rNsIhG .scroller-lynW5A {
-    background-color: var(--background-primary);
-}
-.theme-dark .selected-1Tbx07 {
-    background-color: var(--background-secondary);
-}
-.peopleList-3c4jOR.scrollerBase-289Jih {
-    background-color: var(--background-primary);
-}
-.peopleColumn-29fq28 {
-    background-color: var(--background-primary);
-}
+
+/*
+Hiding other theme selectors that way this theme doesn't break
+*/
+.item-2idW98.marginBottom8-emkd0_.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.itemFilled-1cPbtg[tabindex="-1"] {}
