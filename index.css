@@ -1,4 +1,4 @@
-body {
+body, .theme-dark {
     --background-primary: rgb(0,0,0);
     --background-secondary: rgb(3,3,3);
     --background-secondary-alt: rgb(3,3,3);
@@ -32,19 +32,32 @@ body {
     --expandedFolderIconWrapper-hover: rgb(9,9,9);
     --body-footer: rgb(0,0,0);
     --headerTop: rgb(0,0,0);
+    --toast-background: rgb(0,0,0);
+    --toast-header: rgb(0,0,0);
+    --toast-contents: rgb(0,0,0);
+    --toast-box-shadow: rgba(0, 0, 0, .2);
 }
 
-.newMessagesBar-1hF-9G.barBase-3xxDXu {
-    background-color: var(--background-secondary);
-}
 .scrollableContainer-15eg7h, .infoScroller-1QMpon, .topSection-13QKHs, .headerTop-3GPUSF, .body-2wLx-E, .footer-3naVBw,
 .bodyInnerWrapper-2bQs1k, .header-1zd7se, .content-2hZxGK, .footer-31IekZ.flex-2S1XBF.flex-3BkGQD, .card-16VQ8C,
 .paymentRow-1HKOLu, .pageActions-1crTQL, .codeRedemptionRedirect-3SBiCp.card-16VQ8C, .theme-dark .notDetected-2HEmAp,
 .theme-light .notDetected-2HEmAp, .lookFilled-yCfaCM.colorBrand-I6CyqQ, .ttsPreviewWrapper-100hh5,
-.button-f2h6uQ.lookFilled-yCfaCM, .members-3WRCEx, .members-3WRCEx>div, .header-3OsQeK, .scrollerBase-_bVAAt,
+.button-f2h6uQ.lookFilled-yCfaCM, .container-2o3qEW, .members-3WRCEx>div, .header-3OsQeK, .scrollerBase-_bVAAt,
 .panels-3wFtMD, .header-3cSJjT, .header-1zd7se.header-1sd0RU, .footer-31IekZ.footer-34a4-c, .inner-2pOSmK,
 .friendsEmpty-gs15T1, .searchBar-3TnChZ, .header-30YxSJ, .flex-3BkGQD, .footer-31IekZ.flex-2S1XBF, .formNotice-2nS8ey,
-.card-2U-33X, .card-16VQ8C, .popoutInfo-16MuYF {
+.card-2U-33X, .card-16VQ8C, .popoutInfo-16MuYF, .theme-dark .scroller-2GkvCq, .theme-dark .reactors-1VXca7,
+.theme-dark .tierHeaderLocked-30MLlO, .theme-dark .tierBody-1d3UiS, .theme-dark .headerExpanded-1-zwDr, .wrapper-2SplAX,
+.theme-dark .changeDetails-1kMZqI, .theme-dark .headerClickable-zGQJz3, .theme-dark .headerDefault-1e6yjj,
+.container-2c4_8A, .header-3_zmOb, .header-1w9Q93, .footer-5ji8u1, .cardContent-1-5hym, .role-3pGE29.selected-g-kMVV,
+.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
+.modal-1Kmy_E.root-g14mjS, .radioBar-3w9XY-, .container-cH6QoY, div.root-22AK9z, .scroller-35tvpe, .participants-3hk3ND,
+.tileContainer-Os085F, .container-3r7mfc, .slideContainer-1kdX2a, .rowContainer-jDvyA4, .channelNotice-K4UfZY,
+.container-1NXEtd, .perksModalContentWrapper-3RHugb, .theme-dark .tierHeaderLocked-3ItHYn, .theme-dark .tierBody-3ju-rc,
+.theme-dark .perk-19D_HN, .wrapper-1HIH0j, .theme-dark .tierHeaderUnlocked-1OpOLf, .analyticsCard-2fnrVG, .card-8UsK4b,
+.developerPortalCtaWrapper-2PniQs, .theme-dark .root-g14mjS, .container-3ssFyj, .newMessagesBar-1hF-9G.barBase-3xxDXu,
+.accountProfileCard-lbN7n-, .background-3d_SjE, .fieldList-in8WkP, .theme-dark .payment-2bOh4k, .theme-dark .footer-VCsJQY,
+.theme-dark .expandedInfo-1W31i3, .theme-dark .addGamePopout-3yePJc, .categoryHeader-OpJ1Ly, .theme-dark .selected-3H3-RC,
+.theme-dark .popout-AVsFMl, .contentWrapper-3vHNP2, .wrapper-1NNaWG, .inspector-DFKXwB, .unicodeShortcut-3N8oDe {
     background-color: var(--background-primary);
 }
 
@@ -53,20 +66,30 @@ Adding a subtle border around things to make them "pop" more
 */
 .radioBar-3w9XY-, .container-2oNtJn, .container-2rzKKA, .scrollableContainer-15eg7h, .inner-2pOSmK,
 .container-ZMc96U.themed-Hp1KC_, .searchBar-3TnChZ, .addFriendInputWrapper-kkoSV9, .inputWrapper-1YNMmM,
-.card-16VQ8C, .theme-dark .notDetected-2HEmAp, .theme-light .notDetected-2HEmAp, .button-f2h6uQ.lookFilled-yCfaCM {
+.card-16VQ8C, .theme-dark .notDetected-2HEmAp, .theme-light .notDetected-2HEmAp, .button-f2h6uQ.lookFilled-yCfaCM,
+.userPopout-2j1gM4, .menu-1QACrS, .tierHeader-3q9jIw, .tierBody-1d3UiS, .theme-dark .card-3JmxsM, .contentWrapper-3vHNP2,
+.theme-dark .card-7AB4HE, .container-2c4_8A, .header-3_zmOb, .header-1w9Q93, .messagesPopout-eVzQcI, .footer-5ji8u1,
+.cardContent-1-5hym, .theme-dark .tierHeaderLocked-3ItHYn, .theme-dark .tierBody-3ju-rc, .wrapper-2SplAX,
+.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
+.theme-dark .perk-19D_HN, .wrapper-1HIH0j, .analyticsCard-2fnrVG, .newMessagesBar-1hF-9G.barBase-3xxDXu, .card-8UsK4b,
+.accountProfileCard-lbN7n-, .background-3d_SjE, .theme-dark .footer-VCsJQY, .theme-dark .selected-3H3-RC,
+.theme-dark .popout-AVsFMl {
     border: var(--background-tertiary) 1px solid;
 }
-.header-3OsQeK, .title-31SJ6t, .header-3cSJjT, .header-1zd7se.header-1sd0RU {
+.header-3OsQeK, .title-31SJ6t, .header-3cSJjT, .header-1zd7se.header-1sd0RU, .channelNotice-K4UfZY, .header-11eigE {
     border-bottom: var(--background-tertiary) 1px solid;
 }
-.wrapper-1_HaEi, .sidebar-1tnWFu {
+.wrapper-1_HaEi, .sidebar-1tnWFu, .theme-dark .scroller-2GkvCq, .sidebarRegion-1VBisG, .wrapper-22rqw6.categoryList-2qRrlj {
     border-right: var(--background-tertiary) 1px solid;
 }
-.container-2o3qEW, .panels-3wFtMD {
+.container-2o3qEW, .panels-3wFtMD, .theme-dark .changeDetails-1kMZqI, .unicodeShortcut-3N8oDe, .inspector-DFKXwB {
     border-top: var(--background-tertiary) 1px solid
 }
-.header-30YxSJ {
+.header-30YxSJ, .header-3_zmOb, .header-1w9Q93, .messagesPopout-eVzQcI, .theme-dark .tierHeaderLocked-3ItHYn {
     border-bottom: none;
+}
+.tierBody-1d3UiS, .newMessagesBar-1hF-9G.barBase-3xxDXu, .theme-dark .footer-VCsJQY {
+    border-top: none;
 }
 
 /*
@@ -80,9 +103,17 @@ Fixing broken padding
 }
 
 /*
+Fixing broken z-indexing
+*/
+#popout_1114 {
+    z-index: 1000;
+}
+
+/*
 Hiding Discord's upsell that way you don't click on it
 */
-.banner-3Uu4yV, .upsellContainer-22N_CL, .divider-_0um2u, .channel-1Shao0.container-1oeRFJ.clickable-28SzVr[href="/store"] {
+.banner-3Uu4yV, .upsellContainer-22N_CL, .divider-_0um2u, .channel-1Shao0.container-1oeRFJ.clickable-28SzVr[href="/store"],
+.bannerUpsellContainer-31E9J5, button[aria-label="Send a gift"], .channelTextArea-2VhZ6z > .container-JHR0NT, .upsell-34F9Me {
     display: none;
 }
 
