@@ -116,8 +116,3 @@ Hiding Discord's upsell that way you don't click on it
 .bannerUpsellContainer-31E9J5, button[aria-label="Send a gift"], .channelTextArea-2VhZ6z > .container-JHR0NT, .upsell-34F9Me {
     display: none;
 }
-
-/*
-Hiding other theme selectors that way this theme doesn't break
-*/
-.item-2idW98.marginBottom8-emkd0_.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.itemFilled-1cPbtg[tabindex="-1"] {}
