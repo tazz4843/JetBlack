@@ -116,3 +116,17 @@ Hiding Discord's upsell that way you don't click on it
 .bannerUpsellContainer-31E9J5, button[aria-label="Send a gift"], .channelTextArea-2VhZ6z > .container-JHR0NT, .upsell-34F9Me {
     display: none;
 }
+
+/*
+Fix buttons broken by saturation-factor
+*/
+.lookFilled-yCfaCM.colorRed-rQXKgM {
+    color: #fff;
+    background-color: hsl(359,82.6%,59.4%);
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+    color: #fff;
+    background-color: hsl(139,47.3%,43.9%);
+}
+
