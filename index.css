@@ -110,14 +110,6 @@ Fixing broken z-indexing
 }
 
 /*
-Hiding Discord's upsell that way you don't click on it
-*/
-.banner-3Uu4yV, .upsellContainer-22N_CL, .divider-_0um2u, .channel-1Shao0.container-1oeRFJ.clickable-28SzVr[href="/store"],
-.bannerUpsellContainer-31E9J5, button[aria-label="Send a gift"], .channelTextArea-2VhZ6z > .container-JHR0NT, .upsell-34F9Me {
-    display: none;
-}
-
-/*
 Fix buttons broken by saturation-factor
 */
 .lookFilled-yCfaCM.colorRed-rQXKgM {
