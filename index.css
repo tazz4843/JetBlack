@@ -36,6 +36,10 @@ body, .theme-dark {
     --toast-header: rgb(0,0,0);
     --toast-contents: rgb(0,0,0);
     --toast-box-shadow: rgba(0, 0, 0, .2);
+    --interactive-muted: rgb(15,15,15);
+    --background-modifier-accent: rgb(15,15,15);
+    --text-muted: rgb(120,120,120);
+
 }
 
 .scrollableContainer-15eg7h, .infoScroller-1QMpon, .topSection-13QKHs, .headerTop-3GPUSF, .body-2wLx-E, .footer-3naVBw,
@@ -57,7 +61,8 @@ body, .theme-dark {
 .newMessagesBar-1hF-9G.barBase-3xxDXu, .accountProfileCard-lbN7n-, .background-3d_SjE, .fieldList-in8WkP,
 .theme-dark .payment-2bOh4k, .theme-dark .footer-VCsJQY, .theme-dark .expandedInfo-1W31i3, .unicodeShortcut-3N8oDe,
 .theme-dark .addGamePopout-3yePJc, .categoryHeader-OpJ1Ly, .theme-dark .selected-3H3-RC, .theme-dark .popout-AVsFMl,
-.contentWrapper-3vHNP2, .wrapper-1NNaWG, .inspector-DFKXwB {
+.contentWrapper-3vHNP2, .wrapper-1NNaWG, .inspector-DFKXwB, .lookFilled-1GseHa.select-1Ia3hD, .input-2g-os5,
+.theme-dark .colorPickerCustom-1swUKF {
     background-color: var(--background-primary);
 }
 
@@ -73,7 +78,7 @@ Adding a subtle border around things to make them "pop" more
 .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
 .theme-dark .perk-19D_HN, .wrapper-1HIH0j, .analyticsCard-2fnrVG, .newMessagesBar-1hF-9G.barBase-3xxDXu, .card-8UsK4b,
 .accountProfileCard-lbN7n-, .background-3d_SjE, .theme-dark .footer-VCsJQY, .theme-dark .selected-3H3-RC,
-.theme-dark .popout-AVsFMl {
+.theme-dark .popout-AVsFMl, .lookFilled-1GseHa.select-1Ia3hD, .inputWrapper-1YNMmM, .theme-dark .colorPickerCustom-1swUKF {
     border: var(--background-tertiary) 1px solid;
 }
 .header-3OsQeK, .title-31SJ6t, .header-3cSJjT, .header-1zd7se.header-1sd0RU, .channelNotice-K4UfZY, .header-11eigE {
@@ -122,3 +127,29 @@ Fix buttons broken by saturation-factor
     background-color: hsl(139,47.3%,43.9%);
 }
 
+/*
+Remove sharp white focused item names
+*/
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background-color: var(--background-secondary);
+}
+.modeConnected-NrO4cP .name-28HaxV, .modeConnected-NrO4cP:hover .name-28HaxV, .modeSelected-3DmyhH .icon-2W8DHg,
+.modeSelected-3DmyhH .name-28HaxV, .modeSelected-3DmyhH:hover .name-28HaxV,
+.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV, .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+    color: rgb(195,195,195);
+}
+
+/*
+Remove extremely dark colors that clash with background
+*/
+.wrapper-1S43wv.muted-19J0ih, .wrapper-1S43wv.muted-19J0ih .name-3BUDLf, .modeMuted-2T4MDZ .icon-2W8DHg,
+.modeMuted-2T4MDZ .name-28HaxV, .blockquoteDivider-363utW {
+    color: rgb(50,50,50);
+}
+
+/*
+unfuck broken colors
+*/
+html.disable-forced-colors * {
+    forced-color-adjust: auto;
+}
