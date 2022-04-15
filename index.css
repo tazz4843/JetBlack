@@ -48,7 +48,7 @@ body, .theme-dark, .theme-light {
 .bodyInnerWrapper-2bQs1k, .header-1zd7se, .content-2hZxGK, .footer-31IekZ.flex-2S1XBF.flex-3BkGQD, .card-16VQ8C,
 .paymentRow-1HKOLu, .pageActions-1crTQL, .codeRedemptionRedirect-3SBiCp.card-16VQ8C, .theme-dark .notDetected-2HEmAp,
 .theme-light .notDetected-2HEmAp, .ttsPreviewWrapper-100hh5, .container-2o3qEW, .members-3WRCEx>div, .header-3OsQeK,
-.scrollerBase-_bVAAt, .panels-3wFtMD, .header-3cSJjT, .header-1zd7se.header-1sd0RU, .footer-31IekZ.footer-34a4-c,
+.panels-3wFtMD, .header-3cSJjT, .header-1zd7se.header-1sd0RU, .footer-31IekZ.footer-34a4-c,
 .inner-2pOSmK, .friendsEmpty-gs15T1, .searchBar-3TnChZ, .header-30YxSJ, .footer-31IekZ.flex-2S1XBF,
 .formNotice-2nS8ey, .card-2U-33X, .card-16VQ8C, .popoutInfo-16MuYF, .theme-dark .scroller-2GkvCq, .wrapper-2SplAX,
 .theme-dark .reactors-1VXca7, .theme-dark .tierHeaderLocked-30MLlO, .theme-dark .tierBody-1d3UiS, .participants-3hk3ND,
@@ -64,7 +64,8 @@ body, .theme-dark, .theme-light {
 .theme-dark .payment-2bOh4k, .theme-dark .footer-VCsJQY, .theme-dark .expandedInfo-1W31i3, .unicodeShortcut-3N8oDe,
 .theme-dark .addGamePopout-3yePJc, .categoryHeader-OpJ1Ly, .theme-dark .selected-3H3-RC, .theme-dark .popout-AVsFMl,
 .contentWrapper-3vHNP2, .wrapper-1NNaWG, .inspector-DFKXwB, .lookFilled-1GseHa.select-1Ia3hD, .input-2g-os5,
-.theme-dark .colorPickerCustom-1swUKF {
+.theme-dark .colorPickerCustom-1swUKF, .peopleColumn-1wMU14, .upsellTooltipWrapper-1wqikQ,
+.button-f2h6uQ.colorBrand-I6CyqQ, .scroller-3X7KbA {
     background-color: var(--background-primary);
 }
 
@@ -80,10 +81,11 @@ Adding a subtle border around things to make them "pop" more
 .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
 .theme-dark .perk-19D_HN, .wrapper-1HIH0j, .analyticsCard-2fnrVG, .newMessagesBar-1hF-9G.barBase-3xxDXu, .card-8UsK4b,
 .accountProfileCard-lbN7n-, .background-3d_SjE, .theme-dark .footer-VCsJQY, .theme-dark .selected-3H3-RC,
-.theme-dark .popout-AVsFMl, .lookFilled-1GseHa.select-1Ia3hD, .inputWrapper-1YNMmM, .theme-dark .colorPickerCustom-1swUKF {
+.theme-dark .popout-AVsFMl, .lookFilled-1GseHa.select-1Ia3hD, .inputWrapper-1YNMmM, .theme-dark .colorPickerCustom-1swUKF,
+.upsellTooltipWrapper-1wqikQ, .button-f2h6uQ.colorBrand-I6CyqQ {
     border: var(--background-tertiary) 1px solid;
 }
-.header-3OsQeK, .title-31SJ6t, .header-3cSJjT, .header-1zd7se.header-1sd0RU, .channelNotice-K4UfZY, .header-11eigE {
+.title-31SJ6t, .header-3cSJjT, .header-1zd7se.header-1sd0RU, .channelNotice-K4UfZY, .header-11eigE {
     border-bottom: var(--background-tertiary) 1px solid;
 }
 .wrapper-1_HaEi, .sidebar-1tnWFu, .theme-dark .scroller-2GkvCq, .sidebarRegion-1VBisG, .wrapper-22rqw6.categoryList-2qRrlj {
@@ -168,4 +170,11 @@ fix broken back buttons
 */
 button.backButton-2Ps-B8>div.contents-3ca1mk, button.button-f2h6uQ>div.contents-3ca1mk {
     color: rgb(228,228,228);
+}
+
+/*
+remove stupid server visibility thingy that makes channel list look weird
+ */
+.communityInfoContainer-1dMVpU {
+    display: none;
 }
