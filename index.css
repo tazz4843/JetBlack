@@ -82,10 +82,10 @@ Adding a subtle border around things to make them "pop" more
 .theme-dark .perk-19D_HN, .wrapper-1HIH0j, .analyticsCard-2fnrVG, .newMessagesBar-1hF-9G.barBase-3xxDXu, .card-8UsK4b,
 .accountProfileCard-lbN7n-, .background-3d_SjE, .theme-dark .footer-VCsJQY, .theme-dark .selected-3H3-RC,
 .theme-dark .popout-AVsFMl, .lookFilled-1GseHa.select-1Ia3hD, .inputWrapper-1YNMmM, .theme-dark .colorPickerCustom-1swUKF,
-.upsellTooltipWrapper-1wqikQ, .button-f2h6uQ.colorBrand-I6CyqQ {
+.upsellTooltipWrapper-1wqikQ, .button-f2h6uQ.colorBrand-I6CyqQ, .root-8LYsGj.root-g14mjS {
     border: var(--background-tertiary) 1px solid;
 }
-.title-31SJ6t, .header-3cSJjT, .header-1zd7se.header-1sd0RU, .channelNotice-K4UfZY, .header-11eigE {
+.title-31SJ6t, .header-3cSJjT, .header-1zd7se.header-1sd0RU, .channelNotice-K4UfZY, .header-11eigE, .profileBanner-1owKI5 {
     border-bottom: var(--background-tertiary) 1px solid;
 }
 .wrapper-1_HaEi, .sidebar-1tnWFu, .theme-dark .scroller-2GkvCq, .sidebarRegion-1VBisG, .wrapper-22rqw6.categoryList-2qRrlj {
